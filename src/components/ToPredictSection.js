@@ -48,6 +48,7 @@ const ToPredictSection = ({ setPredictedImage }) => {
       
     async function uploadFile(file) {
         let url = "http://127.0.0.1:10000/predict";
+        url = "http://34.78.246.84:10000/predict";
         let formData = new FormData()
         formData.append('file', file)
         
